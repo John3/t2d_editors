@@ -1,0 +1,8 @@
+<ModuleDefinition
+	ModuleId="PluginSystem"
+	VersionId="1"
+	Group="Editor"
+	Description="Manages the loading and unloading of plugins."
+	ScriptFile="main.cs"
+	CreateFunction="create"
+	DestroyFunction="destroy"/>

@@ -1,0 +1,14 @@
+<ModuleDefinition
+	ModuleId="EditorShell"
+	VersionId="1"
+	Description="Minimal shell for editor system."
+	Dependencies="Console=1"
+	Group="Editor"
+	ScriptFile="main.cs"
+	CreateFunction="create"
+	DestroyFunction="destroy">
+		<DeclaredAssets
+			Path="assets"
+			Extension="asset.taml"
+			Recurse="true"/>	
+</ModuleDefinition>

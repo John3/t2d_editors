@@ -1,0 +1,16 @@
+<ModuleDefinition
+	ModuleId="AssetPreviewTool"
+	VersionId="1"
+	Description="Simple for viewing/selecting assets"
+	Type="utility"
+	Group="utilities"
+	Dependencies="ProjectManager=1"
+	ScriptFile="main.cs"
+	CreateFunction="create"
+	DestroyFunction="destroy">
+		<DeclaredAssets
+			Path="assets"
+			Extension="asset.taml"
+			Recurse="true"/>
+</ModuleDefinition>
+

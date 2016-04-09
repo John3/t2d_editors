@@ -1,0 +1,15 @@
+<ModuleDefinition
+	ModuleId="AudioEditor"
+	VersionId="1"
+	Description="AudioAsset Editor"
+	Type="plugin"
+	Group="plugins"
+	Dependencies="ProjectManager=1"
+	ScriptFile="main.cs"
+	CreateFunction="create"
+	DestroyFunction="destroy">
+		<DeclaredAssets
+			Path="assets"
+			Extension="asset.taml"
+			Recurse="true"/>	
+</ModuleDefinition>

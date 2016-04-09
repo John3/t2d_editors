@@ -1,0 +1,5 @@
+<ImageAsset
+    AssetName="stopButton"
+    AssetCategory="gui"
+    AssetInternal="1"
+    ImageFile="stopButton.png" />

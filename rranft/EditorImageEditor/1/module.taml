@@ -1,0 +1,13 @@
+<ModuleDefinition
+	ModuleId="ImageEditorModule"
+	VersionId="1"
+	Description="Image Editor"
+	Group="assetTools"
+	Dependencies="EditorCore=1"
+	ScriptFile="main.cs"
+	ScopeSet="ImageEditorSet"
+	CreateFunction="create"
+	DestroyFunction="destroy"
+    DeclaredAssetManifest="^ImageEditor/DeclaredAssets.manifest.taml"
+	/>
+

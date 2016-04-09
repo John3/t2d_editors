@@ -1,0 +1,5 @@
+<ImageAsset
+    AssetName="pauseButtonInactive"
+    AssetCategory="gui"
+    AssetInternal="1"
+    ImageFile="pauseButtonInactive.png" />

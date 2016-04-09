@@ -1,0 +1,12 @@
+<ModuleDefinition
+	ModuleId="SoundEditorModule"
+	VersionId="1"
+	Description="Sound Editor"
+	Group="assetTools"
+	Dependencies="EditorCore=1"
+	ScriptFile="main.cs"
+	ScopeSet="SoundEditorSet"
+	CreateFunction="create"
+	DestroyFunction="destroy"
+	/>
+
